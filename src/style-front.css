@@ -1,0 +1,32 @@
+.overlay-bar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 23, 56, 0.92);
+    z-index: 888;
+    position: absolute;
+}
+.overlay-tabs {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 20%;
+    z-index: 9999;
+}
+.wp-block-create-block-tabs{
+	position: relative;
+}
+
+.wp-admin .overlay-bar {
+    background: none;
+    z-index: unset;
+    position: relative;
+}
+.wp-admin .overlay-tabs {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    top: 0;
+    z-index: unset;
+}

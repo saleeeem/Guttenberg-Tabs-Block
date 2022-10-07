@@ -1,0 +1,58 @@
+.wp-block-create-block-tabs{
+    position: relative;
+}
+.overlay-bar {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(31, 23, 56, 0.92);
+    top: 0;
+    left: 0;
+}
+.overlay-tabs {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 20%;
+    z-index: 999;
+}
+.tab-content {
+    min-height: 400px;
+}
+.content-head {
+    color: #ffff;
+}
+.content-head h2{
+font-family: 'Judson';
+font-style: normal;
+font-weight: 700;
+font-size: 75px;
+line-height: 100%;
+}
+.content-head p{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+}
+ul.tab-labels {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+}
+.tab-label {
+    padding: 30px 70px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    cursor: pointer;
+}
+
